@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 97vh;
     background-color: #eff9f8;
 }
 
@@ -23,6 +23,7 @@ header p{
     font-size: 1.2rem;
     margin-right: 150px;
     margin-left: 150px;
+    color:#014793
 }
 header .description2{
     margin-top: 2px;
