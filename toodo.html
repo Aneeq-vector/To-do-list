@@ -6,15 +6,23 @@
     <title>To Do list</title>
     <link rel="icon" href="Elements/icon.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <input>
+    <header>
+        <h1>To-Do List Maker</h1>
+        <p class="description1">Organize your day by adding tasks to this simple To-Do list.</p>
+        <p class="description2">Add tasks and remove as you complete them.</p>
+    </header>
+    <input id="input" placeholder="Enter your tasks..">
 
     <button onclick="add()">Add</button>
 
     <ul id="list-container">
-        <li> Hello
-            <button>Delete</button>
+        <li id="text"> Hello
+            <button onclick="deleteItem(event)">Delete</button>
         </li>
     </ul>
 
